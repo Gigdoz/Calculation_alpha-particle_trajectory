@@ -6,4 +6,4 @@ cmake_minimum_required (VERSION 3.8)
 project ("Colculating_treck_Alfa_particle")
 
 # Включите подпроекты.
-add_subdirectory ("Colculating_treck_Alfa_particle")
+add_subdirectory ("colculatinf_treck")
