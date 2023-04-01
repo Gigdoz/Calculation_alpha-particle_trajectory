@@ -1,5 +1,8 @@
 #pragma once
 
+#include <iostream>
+#include <math.h>
+#include <fstream>
 #include <vector>
 
 typedef unsigned int UINT;
@@ -27,5 +30,5 @@ public:
 	// To output a separate coordinate of the desired point
 	float GetPointArrX(const UINT i) { return this->Arr[i].x; }
 	float GetPointArrY(const UINT i) { return this->Arr[i].y; }
-	void SolutionTreck_File(char* name, const float E, const float L, const float P, const float dt);// Calculation of trajectory points with a given time
+	void SolutionTreck_File(char *name, const float E, const float L, const float P, const float dt);// Calculation of trajectory points with a given time
 };
